@@ -1,0 +1,272 @@
+/*Responsive*/
+
+@media only screen and (min-width:1200px) and (max-width: 1500px) {
+  .hero-area {
+    background: url(../img/bg-laptop.jpg);
+    background-position: 95% 0%;
+    background-repeat: no-repeat;
+  }
+  .service-card{
+    min-height: 320px;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) { 
+  .hero-area {
+    background: url(../img/bg-tab.jpg);
+    background-position: 95% 10%;
+    background-repeat: no-repeat;
+  }
+  .content-left{
+    padding: 100px 0 100px 0;
+  }
+  .content-right{
+    padding: 40px 0 20px 0;
+  }
+  .content-left h1{
+    font-size: 50px;
+    line-height: 52px;
+    margin-top: 20px;
+  }
+  .content-left h3{
+    font-size: 34px;
+    margin-top: 5px;
+  }
+  .content-left h4{
+    font-size: 27px;
+    margin-top: 20px;
+  }
+  .service-card{
+    min-height: 320px;
+  }
+  .card-lms h4{
+    min-height: 50px;
+  }
+  .card-lms p{
+    min-height: 190px;
+  }
+  .copyright{
+    position: inherit;
+  }
+}
+
+/*iPad Pro Portrait only*/ 
+@media only screen and (min-width: 1024px) and (orientation: portrait) {
+  .btn-start-arrow{
+    margin-left: -180px;
+  }
+}
+
+/*iPad Pro Landscape only*/  
+@media only screen and (min-width: 1366px) and (orientation: landscape) {
+
+}
+
+/*iPad Portrait only*/ 
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  
+}
+/*iPad Landscape only only*/
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*iPad only*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .btn-start-arrow{
+    margin-left: -180px;
+  }
+  .title-text h2{
+    font-size: 32px;
+    max-width: 600px;
+  }
+ }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+.navbar-toggler{
+  outline: none;
+}
+.navbar-toggler:active, .navbar-toggler:hover, .navbar-toggler:focus{
+  outline: none;
+}
+.header-area {
+  background: rgba(256, 256, 256, 1);
+}
+.main-menu li a{
+  color: #222;
+}
+.btn-login{
+  margin-bottom: 20px;
+}
+.hero-area {
+  background: url(../img/bg-mobile.jpg);
+  background-position: 85% 40%;
+  background-repeat: no-repeat;
+}
+.content-left{
+  padding: 100px 0 180px 0;
+  margin-left: 0;
+}
+.content-right{
+  padding: 30px 0 20px 0;
+}
+.btn-demo{ 
+  padding: 10px 26px;
+}
+.btn-start-arrow{
+  margin-left: -50px;
+}
+.title-text h2{
+  font-size: 30px;
+  max-width: 800px;
+}
+.services{
+  padding-top: 0;
+}
+.services > .container > .row > .title-text > h2{
+  margin-top: -20px;
+}
+.service-card{
+  padding: 28px 20px;
+  min-height: 290px;
+}
+.service-card h4{
+  font-size: 20px;
+}
+.service-icon{
+  border-radius: 25px;
+  padding: 15px 10px;
+  width: 100px;
+  height: 100px;
+}
+.laptop-dashboard{
+  margin-top: 50px;
+}
+.why-edutube{
+  padding: 5px 0;
+}  
+.card-lms h4{
+  min-height: 30px;
+}
+.card-lms p{
+  min-height: 120px;
+}
+.testimonial{
+  padding: 0 0 10px 0;
+}
+.testimonial-wrapper{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.nesw-form input{
+  max-width: 450px;
+}
+.copyright{
+  position: inherit;
+  font-size: 16px;
+}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+  .logo{ 
+    width: 70%;
+  }
+  .hero-area {
+    background: url(../img/bg-mobile.jpg);
+    background-position: 71% -15%;
+    background-repeat: no-repeat;
+  }
+  .content-left{
+    padding: 100px 0 30px 0;
+  }
+  .content-right{
+    padding: 15px 0 0 0;
+  }
+  .btn-demo{ 
+    padding: 10px 26px;
+  }
+  .content-left h1{
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 20px;
+  }
+  .content-left h3{
+    font-size: 26px;
+    margin-top: 5px;
+  }
+  .content-left h4{
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  .hero-buttons{
+    margin-top: 40px;
+  }
+  .btn-start-arrow{
+    margin-left: -70px;
+  }
+  .title-text h2{
+    font-size: 26px;
+    max-width: 500px;
+  }
+  .laptop-dashboard{
+    margin-top: 40px;
+  }
+  .copyright{
+    position: inherit;
+    font-size: 14px;
+  }
+  .footer-right{
+    float: left;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+  .hero-area {
+    background: url(../img/bg-mobile.jpg);
+    background-position: 72% -15%;
+    background-repeat: no-repeat;
+  }
+  .content-left{
+    padding: 80px 0 20px 0;
+  }
+  .content-right{
+    padding: 15px 0 0 0;
+  }
+  .content-left h1{
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 20px;
+  }
+  .content-left h3{
+    font-size: 30px;
+    margin-top: 15px;
+  }
+  .content-left h4{
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  .btn-start-arrow{
+    margin-left: 0;
+  }
+  .title-text h2{
+    font-size: 25px;
+    max-width: 300px;
+  }
+  .service-card{
+    padding: 28px 20px;
+    min-height: 290px;
+  }
+  .service-card h4{
+    font-size: 20px;
+  }
+  .service-icon{
+    border-radius: 25px;
+    padding: 15px 10px;
+    width: 100px;
+    height: 100px;
+  }
+}
