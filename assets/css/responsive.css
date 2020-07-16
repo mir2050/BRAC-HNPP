@@ -148,6 +148,10 @@
 .why-edutube{
   padding: 5px 0;
 }  
+.feature-area{
+  margin-top: 50px;
+  padding: 70px 0 70px 0;
+}
 .card-lms h4{
   min-height: 30px;
 }
