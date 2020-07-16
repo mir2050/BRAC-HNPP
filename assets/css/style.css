@@ -340,6 +340,17 @@ transform: translateX(5px);
   background: #fff;
   box-shadow: 0 0 10px #ccc;
   min-height: 290px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.service-card:hover{
+  transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  -ms-transform: scale(1.15); /* IE 9 */
+  /* transform: rotateY(360deg); */
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .card-arrow{
