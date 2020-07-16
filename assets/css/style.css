@@ -413,7 +413,8 @@ transform: translateX(5px);
   line-height: 24px;
 } 
 .text-right h3{
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 400;
   text-align: left;
 }
 .text-right p{
@@ -450,11 +451,13 @@ transform: translateX(5px);
 }
     
 .feature-area h3{
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 400;
   text-align: center;
 }
 .feature-sub-title{
   max-width: 900px;
+  padding-top: 20px;
   left: 0;
   right: 0;
   margin: auto;
@@ -505,6 +508,8 @@ transform: translateX(5px);
 
 .testimonial-wrapper h3{
   margin-top: 80px;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .media img{
