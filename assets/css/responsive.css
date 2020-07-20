@@ -9,6 +9,10 @@
   .service-card{
     min-height: 300px;
   }
+  .title-basic::before{
+    margin-left: 53px;
+    margin-top: -30px;
+  }
 }
 
 /*Large devices (desktops, less than 1200px)*/
@@ -45,6 +49,10 @@
   }
   .card-lms p{
     min-height: 190px;
+  }
+  .title-basic::before{
+    margin-left: 30px;
+    margin-top: -34px;
   }
   .copyright{
     position: inherit;
@@ -169,6 +177,10 @@
 .nesw-form input{
   max-width: 450px;
 }
+.title-basic::before{
+  margin-left: 90px;
+  margin-top: -34px;
+}
 .copyright{
   position: inherit;
   font-size: 16px;
@@ -231,6 +243,10 @@
   .feature-area-3{
     padding: 40px 0 0 0;
   }
+  .title-basic::before{
+    margin-left: 45px;
+    margin-top: -30px;
+  }
   .copyright{
     position: inherit;
     font-size: 14px;
@@ -289,6 +305,10 @@
     padding: 15px 10px;
     width: 100px;
     height: 100px;
+  }
+  .title-basic::before{
+    margin-left: 90px;
+    margin-top: -30px;
   }
   .footer-logo{ 
     width: 50%;
