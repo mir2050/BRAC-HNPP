@@ -179,10 +179,11 @@ textarea:focus, input:focus {
 .main-menu .dropdown-menu{
   border-radius: 0 0 4px 4px;
   border: 0;
-  margin-top: -2px;
+  margin-top: 0;
   /* background: #407cbe; */
   background: #ffffff;
   border-radius: 10px;
+  box-shadow: #aaa 0 3px 5px;
 }
 
 .overflow-y-scroll{
