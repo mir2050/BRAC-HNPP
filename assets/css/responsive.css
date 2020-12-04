@@ -1,10 +1,37 @@
 /*Responsive*/
 
 @media only screen and (min-width:1200px) and (max-width: 1500px) {
+  .navbar-brand{
+    width: 20%;
+  }  
+  .logo{
+    margin-top: 0;
+    width: 95%;
+  } 
+  .main-menu li a{
+    font-size: 17px;
+    margin:0 10px 0 0;
+  }
   .hero-area {
-    background: url(../img/bg-laptop.jpg);
-    background-position: 95% 0%;
+    /* background: url(../img/bg-laptop.jpg); */
+    background-position: 50% 100%;
     background-repeat: no-repeat;
+  }
+  .content-left{
+    padding: 70px 0 80px 0;
+  }
+  .content-right{
+    padding: 100px 0 0 0;
+  }
+  .hero-buttons{
+    margin-top: 20px;
+  }
+  .btn-demo{ 
+    padding: 10px 25px;
+    line-height: 15px;
+    }
+  .btn-app-1{
+    margin-left: 0;
   }
   .service-card{
     min-height: 300px;
@@ -17,29 +44,41 @@
 
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) { 
+  .navbar-brand{
+    width: 20%;
+  }  
+  .logo{
+    margin-top: 0;
+    width: 95%;
+  } 
   .hero-area {
-    background: url(../img/bg-tab.jpg);
-    background-position: 95% 10%;
+    /* background: url(../img/bg-tab.jpg); */
+    background-position: 50% 100%;
     background-repeat: no-repeat;
   }
   .content-left{
-    padding: 100px 0 100px 0;
+    padding: 80px 0 80px 0;
   }
   .content-right{
-    padding: 40px 0 20px 0;
+    padding: 100px 0 20px 0;
   }
   .content-left h1{
-    font-size: 50px;
-    line-height: 52px;
+    font-size: 40px;
+    line-height: 46px;
     margin-top: 20px;
   }
   .content-left h3{
     font-size: 34px;
     margin-top: 5px;
   }
-  .content-left h4{
-    font-size: 27px;
+  .hero-buttons{
     margin-top: 20px;
+  }
+  .btn-app-1{
+    margin-left: 0;
+  }
+  .services{
+    padding: 50px 0 80px 0;
   }
   .service-card{
     min-height: 300px;
@@ -57,18 +96,29 @@
   .copyright{
     position: inherit;
   }
+  .affiliate{
+    padding: 30px 0 0 0;
+  }
+  .affiliate h2{
+    margin-top: 40px;
+    font-size: 45px;
+  }
 }
 
 /*iPad Pro Portrait only*/ 
 @media only screen and (min-width: 1024px) and (orientation: portrait) {
-  .btn-start-arrow{
-    margin-left: -180px;
+  .main-menu li a{
+    font-size: 13px;
+    margin:0 20px 0 0;
   }
 }
 
 /*iPad Pro Landscape only*/  
 @media only screen and (min-width: 1366px) and (orientation: landscape) {
-
+  .main-menu li a{
+    font-size: 16px;
+    margin:0 5px 0 0;
+  }
 }
 
 /*iPad Portrait only*/ 
@@ -76,8 +126,11 @@
   
 }
 /*iPad Landscape only only*/
-@media only screen and (min-width: 1024px) and (orientation: landscape) {
-
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .main-menu li a{
+    font-size: 13px;
+    margin:0 5px 0 0;
+  }
 }
 
 /*iPad only*/
@@ -92,7 +145,14 @@
  }
 
 /*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991px) {
+@media (max-width: 991px) {  
+.navbar-brand{
+  width: 70%;
+}  
+.logo{
+  margin-top: 0;
+  width: 60%;
+}  
 .navbar-toggler{
   outline: none;
 }
@@ -109,16 +169,16 @@
   margin-bottom: 20px;
 }
 .hero-area {
-  background: url(../img/bg-mobile.jpg);
-  background-position: 85% 40%;
+  /* background: url(../img/bg-mobile.jpg); */
+  background-position: 50% 100%;
   background-repeat: no-repeat;
 }
 .content-left{
-  padding: 100px 0 180px 0;
+  padding: 20px 0 80px 0;
   margin-left: 0;
 }
 .content-right{
-  padding: 30px 0 20px 0;
+  padding: 120px 0 10px 0;
 }
 .btn-demo{ 
   padding: 10px 26px;
@@ -131,36 +191,15 @@
   font-size: 30px;
   max-width: 800px;
 }
-.services{
-  padding-top: 0;
-}
-.services > .container > .row > .title-text > h2{
-  margin-top: -20px;
-}
-.service-card{
-  padding: 28px 20px;
-  min-height: 240px;
-}
-.service-card h4{
-  font-size: 20px;
-  margin-top: 30px;
-}
-.service-icon{
-  border-radius: 25px;
-  padding: 15px 10px;
-  width: 100px;
-  height: 100px;
-}
-.laptop-dashboard{
-  margin-top: 0;
-}
-.why-edutube{
-  padding: 5px 5px 5px 30px;
-}  
 .feature-area{
-  margin-top: 50px;
   padding: 70px 0 70px 0;
 }
+.newsletter-area h3{
+  text-align: center;
+  }
+  .newsletter-sub{
+  text-align: center;
+  }
 .card-lms h4{
   min-height: 30px;
 }
@@ -168,7 +207,7 @@
   min-height: 120px;
 }
 .testimonial{
-  padding: 0 0 10px 0;
+  padding: 40px 0 20px 0;
 }
 .testimonial-wrapper{
   margin-top: 20px;
@@ -177,37 +216,48 @@
 .nesw-form input{
   max-width: 450px;
 }
-.title-basic::before{
-  margin-left: 90px;
-  margin-top: -34px;
-}
 .copyright{
   position: inherit;
   font-size: 16px;
+}
+.affiliate{
+  padding: 30px 0 0 0;
+}
+.affiliate h2{
+  margin-top: 10px;
+  font-size: 35px;
+}
+.affiliate p{
+  font-size: 16px;
+  line-height: 28px;
 }
 }
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
+  .navbar-brand{
+    width: 60%;
+  }
   .logo{ 
-    width: 70%;
+    margin-top: -5px;
+    width: 80%;
   }
   .hero-area {
-    background: url(../img/bg-mobile.jpg);
-    background-position: 71% -15%;
+    /* background: url(../img/bg-mobile.jpg); */
+    background-position: 50% 100%;
     background-repeat: no-repeat;
   }
   .content-left{
-    padding: 100px 0 30px 0;
+    padding: 0 0 30px 0;
   }
   .content-right{
-    padding: 15px 0 0 0;
+    padding: 100px 0 0 0;
   }
   .btn-demo{ 
     padding: 10px 26px;
   }
   .content-left h1{
-    font-size: 40px;
+    font-size: 28px;
     line-height: 52px;
     margin-top: 20px;
   }
@@ -217,31 +267,17 @@
   }
   .content-left h4{
     font-size: 23px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .hero-buttons{
-    margin-top: 40px;
+    margin-top: 30px;
   }
-  .btn-start-arrow{
-    margin-left: -70px;
+  .btn-app-1{
+    margin-left: -30px;
   }
   .title-text h2{
     font-size: 26px;
     max-width: 500px;
-  }
-  .feature-title h2{
-    font-size: 36px;
-    margin-top: 30px;
-  }
-  .feature-area-1{
-    padding: 20px 0 40px 0;
-  }
-  .feature-area-2{
-    background: #f5f5f5;
-    padding: 40px 0 40px 0;
-  }
-  .feature-area-3{
-    padding: 40px 0 0 0;
   }
   .title-basic::before{
     margin-left: 45px;
@@ -254,28 +290,34 @@
   .footer-right{
     float: left;
   }
+  .btn-app-4{
+    margin-top: 10px;
+  }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
-  /* .logo{ 
-    width: 30%;
-  } */
+  .navbar-brand{
+    width: 48%;
+  }
+  .logo{ 
+    margin-top: -5px;
+    width: 95%;
+  }
   .hero-area {
-    background: url(../img/bg-mobile.jpg);
-    background-position: 72% -15%;
+    /* background: url(../img/bg-mobile.jpg); */
+    background-position: 50% 100%;
     background-repeat: no-repeat;
   }
   .content-left{
-    padding: 80px 0 20px 0;
+    padding: 0 0 40px 0;
   }
   .content-right{
-    padding: 15px 0 0 0;
+    padding: 110px 0 0 0;
   }
   .content-left h1{
-    font-size: 40px;
+    font-size: 36px;
     line-height: 52px;
-    margin-top: 20px;
   }
   .content-left h3{
     font-size: 30px;
@@ -285,7 +327,10 @@
     font-size: 26px;
     margin-top: 20px;
   }
-  .btn-start-arrow{
+  .hero-buttons{
+    margin-top: 20px;
+  }
+  .btn-app-1{
     margin-left: 0;
   }
   .title-text h2{
@@ -312,5 +357,8 @@
   }
   .footer-logo{ 
     width: 50%;
+  }
+  .feature-area{
+    padding: 40px 0 40px 0;
   }
 }
