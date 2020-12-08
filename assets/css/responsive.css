@@ -2,8 +2,12 @@
 
 @media only screen and (min-width:1200px) and (max-width: 1500px) {
   .navbar-brand{
-    width: 20%;
+    width: 25%;
   }  
+  .button-cover, .knobs, .layer
+  {
+      left: 22%;
+  }
   .logo{
     margin-top: 0;
     width: 95%;
@@ -45,8 +49,12 @@
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) { 
   .navbar-brand{
-    width: 20%;
+    width: 25%;
   }  
+  .button-cover, .knobs, .layer
+  {
+      left: 20%;
+  }
   .logo{
     margin-top: 0;
     width: 95%;
@@ -165,6 +173,9 @@
 .main-menu li a{
   color: #222;
 }
+.main-menu li:last-child a{
+  margin-top: 10px!important;
+}
 .btn-login{
   margin-bottom: 20px;
 }
@@ -231,12 +242,23 @@
   font-size: 16px;
   line-height: 28px;
 }
+#wizard{
+  padding: 40px 0;
+}
+.user_reg_require {
+  margin: 13px 0 20px;
+}
 }
 
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767px) {
   .navbar-brand{
-    width: 60%;
+    width: 55%;
+  } 
+  .button-cover, .knobs, .layer
+  {
+    top: 4px;
+    left: 38%;
   }
   .logo{ 
     margin-top: -5px;
@@ -293,12 +315,19 @@
   .btn-app-4{
     margin-top: 10px;
   }
+  .inner_title {
+    font-size: 36px;
+  }
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
   .navbar-brand{
     width: 48%;
+  }
+  .button-cover, .knobs, .layer
+  {
+    left: 34%;
   }
   .logo{ 
     margin-top: -5px;
@@ -360,5 +389,8 @@
   }
   .feature-area{
     padding: 40px 0 40px 0;
+  }
+  .inner_title {
+    font-size: 34px;
   }
 }

@@ -29,55 +29,206 @@
   </head>
   <body>
 
-    <div class="content">
+    <div class="registration-content">
 
-     
-      <!-- Login -->
+      <!-- Main Menu -->
+     <header class="header-area clearfix">
+       <div class="top-menu">
+         <div class="container">
+           <nav class="navbar navbar-expand-lg">
+             <a class="navbar-brand" href="index.html"><img class="logo" src="assets/img/logo.png" alt="Prizebond Check"></a>
+             <div class="language">
+               <a href="#">বাংলা</a> / <a href="#">English</a>
+             </div>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"><img class="d-inline" style="margin-top: 2px;" src="assets/img/icon-burger.png" alt="Prizebond Check"></span>
+             </button>
+ 
+              
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 
+              <ul class="navbar-nav main-menu ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">হোম</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="description.html">অ্যাপ সম্পর্কিত</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">সাবস্ক্রিপশন</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">সাধারণ জিজ্ঞাসা</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">সুবিধা সমুহ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="affilate.html">রেফার এ ফ্রেন্ড</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-login" href="login.html">লগিন</a>
+                </li>
+              </ul>
+               
+             </div>
+           </nav>
+         </div>
+       </div>
+     </header>
+     <!-- /Main Menu -->
 
-        <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="container-login100" style="background-image: url('assets/img/bg-01.jpg');">
-                  <div class="wrap-login100">
-                    <form class="login100-form validate-form">
-                      <span class="login100-form-title pb-2">রেজিষ্ট্রেশন</span>
-                      <div class="wrap-input100 validate-input" data-validate="Enter username">
-                        <input class="input100" type="text" name="username" placeholder="Name">
-                        <span class="focus-input100 mt-2"><img src="assets/img/icon-user.png" alt="Prizebond Check"></span>
-                      </div>
-                      <div class="wrap-input100 validate-input" data-validate="Enter email">
-                        <input class="input100" type="text" name="email" placeholder="Email">
-                        <span class="focus-input100 mt-2"><img src="assets/img/icon-mail.png" alt="Prizebond Check"></span>
-                      </div>
-                      <div class="wrap-input100 validate-input" data-validate="Enter mobile">
-                        <input class="input100" type="text" name="mobile" placeholder="Mobile No.">
-                        <span class="focus-input100 mt-2"><img src="assets/img/icon-mobile.png" alt="Prizebond Check"></span>
-                      </div>
-                      <div class="wrap-input100 validate-input" data-validate="Enter age">
-                        <input class="input100" type="text" name="age" placeholder="Age">
-                        <span class="focus-input100 mt-2"><img src="assets/img/icon-user.png" alt="Prizebond Check"></span>
-                      </div>
-                      <div class="wrap-input100 validate-input" data-validate="Enter password">
-                        <input class="input100" type="password" name="pass" placeholder="Password">
-                        <span class="focus-input100 mt-2"><img src="assets/img/icon-lock.png" alt="Prizebond Check"></span>
-                      </div>
-                      <div class="container-login100-form-btn">
-                        <button class="btn btn-login-main">রেজিষ্ট্রেশন</button>
-                      </div>
-                      <div class="d-flex justify-content-between pt-5">
-                        <p class="txt2">Alrady have account?</p> <a class="txt1" href="login.html">Login</a>
-                      </div>
-                    </form>
-                  </div>
+    <!-- Registration -->
+
+    <div id="wizard">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="inner_title">
+                    আপনার সঠিক তথ্য দিন <span class="line"></span>
+                </h2>
+                <div class="user_reg_require">
+                    <span class="titleone">  ফ্রি রেজিস্ট্রেশন করে আপনি পাচ্ছেন, ১০টি প্রাইজ বন্ড যোগ করে ড্র'র ফলাফল চেক করার সুযোগ।  </span>
                 </div>
+                <div class="steper">
+                  <div class="row">
+                    <div class="col-6 col-md-3">
+                      <div class="working working-active mt-3">
+                        <span class="d-inline">১.</span>
+                        <span class="ml-2">আপনার তথ্য</span>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <div class="working mt-3">
+                        <span class="d-inline">২.</span>
+                        <span class="ml-2">মোবাইল নম্বর</span>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <div class="working mt-3">
+                        <span class="d-inline">৩.</span>
+                        <span class="ml-2">ভেরিফিকেশন</span>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                      <div class="working mt-3">
+                        <span class="d-inline">৪.</span>
+                        <span class="ml-2">অভিনন্দন</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="d-flex justify-content-center">
+                        <form>
+                          <div class="field-holder">
+                            <input class="mt-5" name="name" id="name" value="" type="text" placeholder="নাম">
+                            <input class="mt-4" name="email" id="email" value="" type="text" placeholder="ইমেইল">
+                            <input class="mt-4" name="password" value="" id="password" type="password" placeholder="পাসওয়ার্ড">
+                            <input class="mt-4" name="retype_password" value="" id="retype_password" type="password" placeholder="পাসওয়ার্ড (আবার দিন)">
+                            <input name="login" value="রেজিস্ট্রেশন" class="button btnSign btn btn--skyblue user_reg_btn_wrapper mt-5" type="submit"> 
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>      
+                </div>   
+            </div>
+        </div>
+      </div>        
+      
+      <section>
+        
+                  
+                  
+
+      </section>
+    </div> 
+       
+    <!-- /Login --> 
+
+    <!-- Start Earning -->
+
+    <section class="start-earning-banner">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="text-center">Interested In Beeing Prizebond Check Affiliate</h3>
+              <div class="d-flex justify-content-center mt-4">
+                <button type="submit" class="btn btn-start-earning">Start Now!</button>
               </div>
             </div>
-        </div>  
-      </section> 
-       
-      <!-- /Login --> 
+          </div> 
+      </div>  
+    </section> 
+     
+    <!-- /Start Earning --> 
 
+    <!-- Footer -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <a href="index.html"><img class="footer-logo" alt="Prizebond Check" src="assets/img/logo.png"></a>
+              <p>আকর্ষনীয় ও দেশ সেরা প্রাইজবন্ড পরিষেবা</p>
+              <div class="btn-group">
+                <a href="#" target="_blank">
+                  <img class="img-fluid" src="assets/img/icon-social-facebook.png" alt="facebook">
+                </a>  
+                <a href="#" target="_blank">  
+                  <img class="ml-2 img-fluid" src="assets/img/icon-social-twitter.png" alt="twitter">
+                </a>
+                <a href="#" target="_blank">  
+                  <img class="ml-2 img-fluid" src="assets/img/icon-social-instagram.png" alt="instagram">
+                </a>
+                <a href="#" target="_blank">  
+                  <img class="ml-2 img-fluid" src="assets/img/icon-social-linkedin.png" alt="twitter">
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <h5>Get to know us</h5>
+              <a href="about.html">About Us</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <h5>Learn with us</h5>
+              <a href="#" target="_blank">প্রাইজবন্ড</a>
+              <a href="#" target="_blank">প্রাইজবন্ড</a>
+              <a href="#" target="_blank">প্রাইজবন্ড</a>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              <h5>Partner with us</h5>
+              <a href="affilate.html" target="_blank">এফিলিয়েট</a>
+              <h5 class="mb-4">Available Now On</h5>
+              <a class="d-inline mr-1" href="#" target="_blank"><img class="img-fluid mt-2" alt="Prizebond Check" src="assets/img/icon-app-01.png"></a> <a class="d-inline" href="#" target="_blank"><img class="img-fluid mt-2" alt="Prizebond Check" src="assets/img/icon-app-02.png"></a> 
+            </div>
+        </div>
+      </div>
+    </footer>    
+
+    <!-- /Footer -->
+
+    <!-- copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="copyright-left pt-3">
+              © Copyright 2020 Prizebond Check<span class="px-3">|</span>All Rights Reserved.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="copyright-right pt-3">
+              <a href="#">Terms &amp; Conditions</a><span class="px-3">|</span><a href="#">Privacy Policy</a><span class="px-3">|</span><a href="#">FAQ</a><span class="px-3">|</span><a href="#">Site Map</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- /copyright -->
+
     
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
